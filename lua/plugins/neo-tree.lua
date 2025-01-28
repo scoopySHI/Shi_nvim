@@ -4,7 +4,7 @@ return {
     filesystem = {
       filtered_items = {
         visible = false, -- hide filtered items on open
-        hide_gitignored = false,
+        hide_gitignored = true,
         hide_dotfiles = false,
         hide_by_name = {
           ".github",
